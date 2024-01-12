@@ -35,12 +35,12 @@ main{
      transform: rotate(45deg);
      font-size: 25px;
      color: #515151;
-     transition: .3s all ease;
+     transition: .5s all ease;
      cursor: pointer;
 }
 
 #fechar:hover{
-     transform: rotate(260deg);
+     transform: rotate(360deg);
 }
 
 .inicio{
@@ -100,11 +100,11 @@ main{
 }
 
 fieldset{
-     border-bottom: 1px;
+     border-top: 1px solid #00000034;
+     border-bottom: 1px ;
      border-left: none;
      border-right: none;
-     margin-top: 2rem;
-     opacity: .4;
+     margin-top: 5px;
 }
 
 legend{
@@ -114,7 +114,6 @@ legend{
 }
 
 form{
-     margin-top: 1rem;
      display: flex;
      flex-direction: column;
 }
@@ -127,8 +126,12 @@ label{
      background-color: transparent;
      border: 1px solid black;
      border-radius: 3px;
-     padding: 2px 3px;
+     padding: 4px 3px;
      outline: none;
+}
+
+.input::placeholder{
+     font-size: 12px;
 }
 
 .chacters{
