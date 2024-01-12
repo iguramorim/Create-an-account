@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+     <link rel="icon" href="./img/google-37.svg" type="image/x-icon">
+     <link rel="stylesheet" href="./style.css">
+     <title>Create an account</title>
+</head>
+<body>
+     <main>
+          <section class="creater-container">
+               <i id="fechar" class='bx bx-plus'></i>
+               <div class="inicio">
+                    <i class='bx bx-meteor'></i>
+                    <div class="inicio-texto">
+                         <h2>Create an account</h2>
+                         <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
+               </div>
+
+               <div class="conectar">
+                    <button><img src="./img/google-37.svg" alt=""> Sign up with Google</button>
+                    <button><img src="./img/twitter-113.svg" alt=""> Sign up with Twiter</button>
+               </div>
+
+               <fieldset>
+                    <legend>Or</legend>
+               </fieldset>
+
+               <form action="">
+                    <label for="nome">Name*</label>
+                    <input class="input" type="text" id="nome" placeholder="Enter your name" required>
+
+                    <label for="email">Email*</label>
+                    <input class="input" type="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="senha">Password*</label>
+                    <input class="input" type="password" id="senha" placeholder="Enter your password" required>
+
+                    <p class="chacters">Must be at least 8 chacters.</p>
+
+                    <div class="chaeck">
+                         <input type="checkbox" name="checkbox" id="checkbox" required>
+                         <p>I agree with <a href="#">terms and conditions</a></p>
+                    </div>
+
+                    <div class="btns">
+                         <a href="index.html">Cancel</a>
+                         <button class="btnBlue">
+                              <p>Sign up</p>
+                              <i class='bx bx-right-arrow-alt'></i>
+                         </button>
+                    </div>
+               </form>
+          </section>
+     </main>
+</body>
+</html>

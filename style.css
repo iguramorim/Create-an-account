@@ -1,0 +1,205 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     font-family: 'Poppins', sans-serif;
+}
+
+body{
+     background-color: #e4e3e3;
+}
+
+main{
+     display: grid;
+     place-items: center;
+     height: 100vh;
+}
+
+.creater-container{
+     width: 100%;
+     max-width: 330px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     border-radius: 8px;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.159);
+     background-color: #fff;
+     position: relative;
+}
+
+#fechar{
+     position: absolute;
+     right: 8px;
+     transform: rotate(45deg);
+     font-size: 25px;
+     color: #515151;
+     transition: .3s all ease;
+     cursor: pointer;
+}
+
+#fechar:hover{
+     transform: rotate(260deg);
+}
+
+.inicio{
+     display: flex;
+     align-items: center;
+     gap: 15px;
+}
+
+.inicio i{
+     transform: translateY(-5px);
+     padding: 5px;
+     border-radius: 5px;
+     border: 1px solid black;
+}
+
+.inicio-texto{
+     display: flex;
+     flex-direction: column;
+     line-height: 20px;
+}
+
+.inicio-texto h2{
+     font-size: 18px;
+}
+
+.inicio-texto p{
+     color: #515151;
+     font-size: 12px;
+}
+
+.inicio-texto p a{
+     color: black;
+     text-decoration: underline;
+}
+
+.conectar{
+     margin-top: 15px;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 5px;
+}
+
+.conectar button{
+     padding: 7px 0;
+     background-color: transparent;
+     border: 1px solid black;
+     border-radius: 5px;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+
+.conectar button img{
+     width: 20px;
+}
+
+fieldset{
+     border-bottom: 1px;
+     border-left: none;
+     border-right: none;
+     margin-top: 2rem;
+     opacity: .4;
+}
+
+legend{
+     text-align: center;
+     padding: 4px;
+     font-size: 13px;
+}
+
+form{
+     margin-top: 1rem;
+     display: flex;
+     flex-direction: column;
+}
+label{
+     margin-top: 8px;
+     font-size: 13px;
+}
+
+.input{
+     background-color: transparent;
+     border: 1px solid black;
+     border-radius: 3px;
+     padding: 2px 3px;
+     outline: none;
+}
+
+.chacters{
+     font-size: 11px;
+}
+
+.chaeck{
+     margin-top: 10px;
+     display: flex;
+     gap: 4px;
+}
+
+.chaeck p{
+     font-size: 12px;
+     font-weight: 500;
+}
+
+.chaeck p a{
+     text-decoration: underline;
+     color: black;
+     font-weight: 400;
+}
+
+.btns{
+     margin-top: 1.2rem;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+}
+
+.btns a{
+     border: 1px solid black;
+     color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 4px;
+}
+
+.btns a:hover{
+     border: 1px solid #2471eb;
+     color: #2471eb;
+}
+
+.btns button{
+     background: transparent;
+     border-radius: 4px;
+     border: 1px solid black;
+     padding: 7px 0;
+     cursor: pointer;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.btns button:nth-child(2){
+     background-color: #2471eb;
+     color: white;
+     border: none;
+}
+
+.btns button:nth-child(2):hover{
+     background-color: #1458c5;
+}
+
+.btnBlue{
+     display: flex;
+     gap: 1.5rem;
+}
+
+.btnBlue i{
+     font-size: 18px;
+}
